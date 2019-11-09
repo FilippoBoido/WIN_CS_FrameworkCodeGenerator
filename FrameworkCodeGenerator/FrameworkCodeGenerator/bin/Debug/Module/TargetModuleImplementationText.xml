@@ -1,0 +1,9 @@
+<TargetModuleImplementationText>
+callComponents();
+eventRaiser();
+IF execute THEN
+	runSequence();
+END_IF
+
+@eventManagers
+</TargetModuleImplementationText>

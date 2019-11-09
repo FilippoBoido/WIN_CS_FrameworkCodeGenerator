@@ -1,0 +1,10 @@
+<EventManagerImplementationText>
+updateEventRecord();
+IF not disable THEN
+	eventDispatcher();
+	checkForRaceCondition();
+END_IF
+
+executeHandler();
+
+</EventManagerImplementationText>

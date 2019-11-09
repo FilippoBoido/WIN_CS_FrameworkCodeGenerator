@@ -1,0 +1,210 @@
+
+<Config>
+
+	<SolutionInfo>
+		RunParameters\SolutionInfo.xml
+	</SolutionInfo>
+
+	<Modules>
+		RunParameters\Modules.xml
+	</Modules>
+		
+	<EnumEventDeclarationText>
+		DUTs\EnumEventDeclarationText.xml
+	</EnumEventDeclarationText>
+	
+	<InterfaceSequenceMethodDeclarationText>
+		Interfaces\InterfaceSequenceMethodDeclarationText.xml
+	</InterfaceSequenceMethodDeclarationText>	
+	
+	<MainSystemTimeDeclarationText>
+		MAIN\MainSystemTimeDeclarationText.xml
+	</MainSystemTimeDeclarationText>
+	
+	<MainSystemTimeImplementationText>
+		MAIN\MainSystemTimeImplementationText.xml
+	</MainSystemTimeImplementationText>
+	
+	<MainImplementationText>
+		MAIN\MainImplementationText.xml
+	</MainImplementationText>
+	
+	<EventRecordDeclarationText>
+		EventManager\EventRecordDeclarationText.xml
+	</EventRecordDeclarationText>
+
+	<EventManagerDeclarationText>
+		EventManager\EventManagerDeclarationText.xml
+	</EventManagerDeclarationText>
+
+	<EventManagerImplementationText>
+		EventManager\EventManagerImplementationText.xml
+	</EventManagerImplementationText>
+
+	<EventReceiverImplementationText>
+	</EventReceiverImplementationText>
+
+	<EventReceiverDeclarationText>
+		EventManager\EventReceiverDeclarationText.xml
+	</EventReceiverDeclarationText>
+
+	<EventReceiverGetterImplementationText>
+		EventManager\EventReceiverGetterImplementationText.xml
+	</EventReceiverGetterImplementationText>
+
+	<CheckForRaceConditionDeclarationText>
+		EventManager\CheckForRaceConditionDeclarationText.xml
+	</CheckForRaceConditionDeclarationText>
+
+	<CheckForRaceConditionImplementationText>
+		EventManager\CheckForRaceConditionImplementationText.xml
+	</CheckForRaceConditionImplementationText>
+
+	<EventDispatcherDeclarationText>
+		EventManager\EventDispatcherDeclarationText.xml
+	</EventDispatcherDeclarationText>
+	
+	<EventDispatcherImplementationText>
+		EventManager\EventDispatcherImplementationText.xml
+	</EventDispatcherImplementationText>
+	
+	<ExecuteHandlerDeclarationText>
+		EventManager\ExecuteHandlerDeclarationText.xml
+	</ExecuteHandlerDeclarationText>
+
+	<ExecuteHandlerImplementationText>
+		EventManager\ExecuteHandlerImplementationText.xml
+	</ExecuteHandlerImplementationText>
+
+	<HandlerOperationText>
+		EventManager\SpecificEventsModuleCreator\HandlerOperationText.xml
+		<!--EventManager\HandlerOperationText.xml-->
+	</HandlerOperationText>
+
+	<UpdateEventHistoryDeclarationText>
+		EventManager\UpdateEventHistoryDeclarationText.xml
+	</UpdateEventHistoryDeclarationText>
+
+	<UpdateEventHistoryImplementationText>
+		EventManager\UpdateEventHistoryImplementationText.xml
+	</UpdateEventHistoryImplementationText>
+
+	<UpdateEventRecordDeclarationText>
+		EventManager\UpdateEventRecordDeclarationText.xml
+	</UpdateEventRecordDeclarationText>
+
+	<UpdateEventRecordImplementationText>
+		EventManager\UpdateEventRecordImplementationText.xml
+	</UpdateEventRecordImplementationText>
+
+	<DisableEventManagerSignalDeclarationText>
+		EventManager\DisableEventManagerSignalDeclarationText.xml
+	</DisableEventManagerSignalDeclarationText>
+
+	<DisableEventManagerSignalSetterImplementationText>
+		EventManager\DisableEventManagerSignalSetterImplementationText.xml
+	</DisableEventManagerSignalSetterImplementationText>
+
+	<DisableEventManagerSignalGetterImplementationText>
+		EventManager\DisableEventManagerSignalGetterImplementationText.xml
+	</DisableEventManagerSignalGetterImplementationText>
+	
+	<EventManagerInStruct>
+		EventManager\EventManagerInStruct.xml
+	</EventManagerInStruct>	
+	
+	<EventManagerOutStruct>
+		EventManager\EventManagerOutStruct.xml
+	</EventManagerOutStruct>
+	
+	<EventManagerFBInitDeclarationText>
+		EventManager\EventManagerFBInitDeclarationText.xml
+	</EventManagerFBInitDeclarationText>
+	
+	<EventManagerFBInitImplementationText>
+		EventManager\EventManagerFBInitImplementationText.xml
+	</EventManagerFBInitImplementationText>
+	
+	<ModuleInStruct>
+		Module\ModuleInStruct.xml
+	</ModuleInStruct>
+	
+	<ModuleOutStruct>
+		Module\ModuleOutStruct.xml
+	</ModuleOutStruct>
+	
+	<EventRaiserDeclarationText>
+		Module\EventRaiserDeclarationText.xml
+	</EventRaiserDeclarationText>
+
+	<EventRaiserImplementationText>
+		Module\EventRaiserImplementationText.xml
+	</EventRaiserImplementationText>
+
+	<EventMethodDeclarationText>
+		Module\EventMethodDeclarationText.xml
+	</EventMethodDeclarationText>
+
+	<EventSenderMethodDeclarationText>
+		Module\EventSenderMethodDeclarationText.xml
+	</EventSenderMethodDeclarationText>
+
+	<EventSenderMethodImplementationText>
+		<!--Module\EventSenderMethodImplementationText.xml-->
+		Module\SpecificEventsModuleCreator\EventSenderMethodImplementationText.xml
+	</EventSenderMethodImplementationText>
+	
+	<TargetModuleDeclarationText>
+		Module\TargetModuleDeclarationText.xml
+	</TargetModuleDeclarationText>
+
+	<TargetModuleImplementationText>
+		Module\TargetModuleImplementationText.xml
+	</TargetModuleImplementationText>
+	
+	<ModuleEventManagerDeclarationText>
+		Module\ModuleEventManagerDeclarationText.xml
+	</ModuleEventManagerDeclarationText>
+	
+	<ModuleEventManagerDeclarationText>
+		Module\ModuleEventManagerImplementationText.xml
+	</ModuleEventManagerDeclarationText>
+	
+	<ModuleTriggerEventsDeclarationText>
+		<!--Module\ModuleTriggerEventsDeclarationText.xml-->
+		Module\SpecificEventsModuleCreator\ModuleTriggerEventsDeclarationText.xml
+	</ModuleTriggerEventsDeclarationText>
+
+	<CallComponentsDeclarationText>
+		Module\CallComponentsDeclarationText.xml
+	</CallComponentsDeclarationText>
+	
+	<RegisterSequenceDeclarationText>
+		Module\RegisterSequenceDeclarationText.xml
+	</RegisterSequenceDeclarationText>
+	
+	<RegisterSequenceImplementationText>
+		Module\RegisterSequenceImplementationText.xml
+	</RegisterSequenceImplementationText>
+	
+	<RunSequenceDeclarationText>
+		Module\RunSequenceDeclarationText.xml
+	</RunSequenceDeclarationText>
+	
+	<RunSequenceImplementationText>
+		Module\RunSequenceImplementationText.xml
+	</RunSequenceImplementationText>
+	
+	<ModulesGvlDeclarationText>
+		GVLs\ModulesGvlDeclarationText.xml
+	</ModulesGvlDeclarationText>
+	
+	<ConstantsGvlDeclarationText>
+		GVLs\ConstantsGvlDeclarationText.xml
+	</ConstantsGvlDeclarationText>
+	
+	<SystemGvlDeclarationText>
+		GVLs\SystemGvlDeclarationText.xml
+	</SystemGvlDeclarationText>
+
+</Config>

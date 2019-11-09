@@ -1,0 +1,7 @@
+<CheckForRaceConditionDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+METHOD checkForRaceCondition : BOOL
+VAR
+	counter : INT;
+END_VAR
+</CheckForRaceConditionDeclarationText>

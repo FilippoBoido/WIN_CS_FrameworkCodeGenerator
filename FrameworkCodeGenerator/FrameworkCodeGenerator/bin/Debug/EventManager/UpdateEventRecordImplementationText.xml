@@ -1,0 +1,6 @@
+<UpdateEventRecordImplementationText>
+IF event.currentEvent @unequal 0 THEN
+	event.pastEvent := event.currentEvent;
+	event.currentEvent := 0;
+END_IF
+</UpdateEventRecordImplementationText>

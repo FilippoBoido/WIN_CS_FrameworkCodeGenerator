@@ -1,0 +1,11 @@
+<EnumEventDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+TYPE @eventManagerName@Event :
+(
+	noEvent := 0,
+	
+@eventNames
+	size
+);
+END_TYPE
+</EnumEventDeclarationText>

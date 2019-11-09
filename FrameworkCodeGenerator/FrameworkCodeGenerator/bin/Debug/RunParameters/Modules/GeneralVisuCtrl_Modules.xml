@@ -1,0 +1,31 @@
+<Modules modulesQuantity="2">
+
+	<ModuleTarget 
+		eventManagersQuantity="2" 
+		name="VisuConveyorCtrl"
+		path="TIPC^CodeGeneratorTest^CodeGeneratorTest Project^POUs^FB_VisuConveyorCtrl">
+		
+		<EventManagerTargetName 
+			eventsQuantity="9" 
+			name="VisuConveyorAction">		
+		</EventManagerTargetName>
+		<EventManagerTargetName 
+			eventsQuantity="9" 
+			name="VisuConveyorUserInfo">		
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+		<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="VisuRecipeCtrl"
+		path="TIPC^CodeGeneratorTest^CodeGeneratorTest Project^POUs^FB_VisuRecipeCtrl">
+		
+		<EventManagerTargetName 
+			eventsQuantity="9" 
+			name="VisuRecipeAction">		
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+</Modules>
+
+

@@ -1,0 +1,9 @@
+<SystemGvlDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+{attribute 'qualified_only'}
+VAR_GLOBAL
+	 localSystemTime : FB_LocalSystemTime;
+	 timeInfo : TIMESTRUCT;
+	 hourMinuteSecondMillisecond : STRING;
+END_VAR
+</SystemGvlDeclarationText>

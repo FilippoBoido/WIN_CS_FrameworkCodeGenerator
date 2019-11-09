@@ -1,0 +1,3 @@
+<EventManagerFBInitImplementationText>
+p@moduleName@ := pInit@moduleName@;
+</EventManagerFBInitImplementationText>

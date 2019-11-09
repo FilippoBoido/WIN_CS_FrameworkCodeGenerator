@@ -1,0 +1,15 @@
+<MainSystemTimeImplementationText>
+System.localSystemTime(
+	bEnable := TRUE,
+	systemTime=>System.timeInfo
+	
+);
+
+hour := Concat(WORD_TO_STRING(System.timeInfo.wHour),':');
+minute := Concat(WORD_TO_STRING(System.timeInfo.wMinute),':');
+minuteSecond := Concat(minute,WORD_TO_STRING(System.timeInfo.wSecond));
+hourMinuteSecond := Concat(hour,minuteSecond);
+hourMinuteSecond := Concat(hourMinuteSecond,':');
+hourMinuteSecondMillisecond := Concat(hourMinuteSecond,WORD_TO_STRING(System.timeInfo.wMilliseconds));
+System.hourMinuteSecondMillisecond := hourMinuteSecondMillisecond;
+</MainSystemTimeImplementationText>

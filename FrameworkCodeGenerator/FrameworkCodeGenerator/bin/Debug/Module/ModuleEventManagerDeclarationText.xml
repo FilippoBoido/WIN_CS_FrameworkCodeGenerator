@@ -1,0 +1,3 @@
+<ModuleEventManagerDeclarationText>
+@eventManagerName@EventManager	: @eventManagerName@EventManager(ADR(this^));
+</ModuleEventManagerDeclarationText>

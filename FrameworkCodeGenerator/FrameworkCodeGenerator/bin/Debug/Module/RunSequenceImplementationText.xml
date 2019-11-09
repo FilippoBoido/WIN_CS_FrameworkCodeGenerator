@@ -1,0 +1,7 @@
+<RunSequenceImplementationText>
+IF iSequence = 0 THEN
+	RETURN;
+END_IF
+
+iSequence.sequence(ADR(this^));
+</RunSequenceImplementationText>

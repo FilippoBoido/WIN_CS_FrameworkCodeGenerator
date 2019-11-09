@@ -1,0 +1,3 @@
+<ModuleTriggerEventsDeclarationText>
+triggers	: ARRAY[1..@numberOfEvents@] OF BOOL;
+</ModuleTriggerEventsDeclarationText>

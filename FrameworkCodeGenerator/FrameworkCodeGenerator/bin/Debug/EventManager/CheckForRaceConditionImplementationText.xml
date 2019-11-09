@@ -1,0 +1,15 @@
+<CheckForRaceConditionImplementationText>
+FOR i := 1 TO @eventManagerName@Event.size-1 DO
+	IF receivedEvents[i] THEN
+		counter := counter + 1;
+	END_IF;
+END_FOR
+
+IF counter > 1 THEN
+	ADSLOGSTR(msgCtrlMask:=ADSLOG_MSGTYPE_ERROR ,msgFmtStr:='%s' , strArg:= 
+		Concat('Race condition in ',eventManager)
+	);
+	error := TRUE;
+	disable := TRUE;
+END_IF
+</CheckForRaceConditionImplementationText>

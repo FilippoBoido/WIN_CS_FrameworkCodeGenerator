@@ -1,0 +1,3 @@
+<ModuleTriggerEventsDeclarationText>
+trigger@eventName@Event : BOOL;
+</ModuleTriggerEventsDeclarationText>

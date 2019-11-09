@@ -1,0 +1,7 @@
+<RegisterSequenceDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+METHOD registerSequence : BOOL
+VAR_INPUT
+	iSequenceToRegister : I_Sequence;
+END_VAR
+</RegisterSequenceDeclarationText>

@@ -1,0 +1,8 @@
+<EventManagerInStruct>
+//-----------------------------------------Auto-generated code-----------------------------------------
+TYPE @eventManagerName@EventTriggers :
+STRUCT
+
+END_STRUCT
+END_TYPE
+</EventManagerInStruct>

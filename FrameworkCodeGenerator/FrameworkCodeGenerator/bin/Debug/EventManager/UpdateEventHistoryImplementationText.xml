@@ -1,0 +1,11 @@
+<UpdateEventHistoryImplementationText>
+IF presentHistoryPointer > 20 THEN
+	pastEventsHistory := presentEventsHistory;
+	presentEventsHistory := NULL_STRING_DOUBLE_ARRAY;
+	presentHistoryPointer := 1;
+END_IF
+
+presentEventsHistory[presentHistoryPointer,1] := bluePrints[event.currentEvent];
+presentEventsHistory[presentHistoryPointer,2] := System.hourMinuteSecondMillisecond;
+presentHistoryPointer := presentHistoryPointer + 1;
+</UpdateEventHistoryImplementationText>

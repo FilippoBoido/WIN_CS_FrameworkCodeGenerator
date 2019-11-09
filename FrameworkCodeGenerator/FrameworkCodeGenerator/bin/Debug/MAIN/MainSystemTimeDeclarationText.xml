@@ -1,0 +1,12 @@
+<MainSystemTimeDeclarationText>
+METHOD systemTime : BOOL
+VAR_INPUT
+END_VAR
+VAR
+	hourMinuteSecond 			: STRING;
+	hourMinuteSecondMillisecond : STRING;
+	hour 						: STRING;
+	minute 						: STRING;
+	minuteSecond 				: STRING;
+END_VAR
+</MainSystemTimeDeclarationText>

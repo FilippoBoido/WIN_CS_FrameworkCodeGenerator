@@ -1,0 +1,35 @@
+<Modules modulesQuantity="1">
+
+	<ModuleTarget 
+		eventManagersQuantity="2" 
+		name="Logger"
+		path="TIPC^CodeGeneratorTest^CodeGeneratorTest Project^POUs^FB_Logger">
+		
+		<EventManagerTargetName 
+			eventsQuantity="3" 
+			name="LoggerMain">
+			
+			<EventName>LoggerStart</EventName>
+			<EventName>LoggerStop</EventName>
+			<EventName>LoggerError</EventName>
+
+			
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="7" 
+			name="LoggerOperations">
+			
+			<EventName>LoggerAddHead</EventName>
+			<EventName>LoggerDeleteHead</EventName>
+			<EventName>LoggerListEmpty</EventName>
+			<EventName>LoggerListHeadAdded</EventName>
+			<EventName>LoggerListHeadDeleted</EventName>
+			<EventName>LoggerListReadHead</EventName>
+			<EventName>LoggerListHeadRead</EventName>
+		
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+
+</Modules>

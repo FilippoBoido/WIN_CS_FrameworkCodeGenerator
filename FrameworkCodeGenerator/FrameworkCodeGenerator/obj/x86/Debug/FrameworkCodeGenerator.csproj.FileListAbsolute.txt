@@ -1,0 +1,24 @@
+c:\users\filippo boido\documents\visual studio 2010\Projects\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.exe
+c:\users\filippo boido\documents\visual studio 2010\Projects\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.pdb
+c:\users\filippo boido\documents\visual studio 2010\Projects\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csproj.ResolveComReference.cache
+c:\users\filippo boido\documents\visual studio 2010\Projects\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.exe
+c:\users\filippo boido\documents\visual studio 2010\Projects\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.pdb
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csproj.ResolveComReference.cache
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.exe
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.pdb
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.exe
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.pdb
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csproj.ResolveComReference.cache
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.exe
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.pdb
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.exe
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.pdb
+\\VBOXSVR\Downloads\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Filippo Boido\Documents\Visual Studio 2010\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.exe
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\bin\Debug\FrameworkCodeGenerator.pdb
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csprojAssemblyReference.cache
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csproj.ResolveComReference.cache
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.csproj.CoreCompileInputs.cache
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.exe
+C:\Users\fboid\Documents\Mercurial\FrameworkCodeGenerator\FrameworkCodeGenerator\obj\x86\Debug\FrameworkCodeGenerator.pdb

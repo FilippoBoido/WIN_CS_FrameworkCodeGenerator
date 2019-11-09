@@ -1,0 +1,7 @@
+<InterfaceSequenceMethodDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+METHOD sequence : BOOL
+VAR_INPUT
+	pSequenceMaster : POINTER TO PVOID;
+END_VAR
+</InterfaceSequenceMethodDeclarationText>

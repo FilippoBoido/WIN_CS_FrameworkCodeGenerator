@@ -1,0 +1,291 @@
+<Modules modulesQuantity="15">
+
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Led"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Led">
+		
+		<EventManagerTargetName 
+			eventsQuantity="2" 
+			name="LedMain">
+			<EventName>on</EventName>
+			<EventName>off</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="PresenceDetector"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^PresenceDetector">
+		
+		<EventManagerTargetName 
+			eventsQuantity="2" 
+			name="PresenceDetectorMain">
+			<EventName>risingEdge</EventName>
+			<EventName>fallingEdge</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Picker"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Positioner">
+		
+		<EventManagerTargetName 
+			eventsQuantity="8" 
+			name="PickerMain">
+			<EventName>rotateClockwise</EventName>
+			<EventName>rotateCounterClockwise</EventName>
+			<EventName>rotateGripperClockwise</EventName>
+			<EventName>rotateGripperCounterClockwise</EventName>
+			<EventName>activateSuctionCup</EventName>
+			<EventName>deactivateSuctionCup</EventName>
+			<EventName>placeXPosition</EventName>
+			<EventName>placeZPosition</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Valve"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Valve">
+		
+		<EventManagerTargetName 
+			eventsQuantity="2" 
+			name="ValveMain">
+			<EventName>on</EventName>
+			<EventName>off</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Sensor"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Sensor">
+		
+		<EventManagerTargetName 
+			eventsQuantity="2" 
+			name="SensorMain">
+			<EventName>risingEdge</EventName>
+			<EventName>fallingEdge</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Positioner"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Positioner">
+		
+		<EventManagerTargetName 
+			eventsQuantity="4" 
+			name="PositionerMain">
+			<EventName>raise</EventName>
+			<EventName>lower</EventName>
+			<EventName>clamp</EventName>
+			<EventName>release</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="StopBlade"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^StopBlade">
+		
+		
+		<EventManagerTargetName 
+			eventsQuantity="2" 
+			name="StopBladeMain">
+			<EventName>raise</EventName>
+			<EventName>lower</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	<ModuleTarget 
+		eventManagersQuantity="1" 
+		name="Station01Ctrl"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Station01Ctrl">
+		
+		
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="Station01CtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="Station02Ctrl"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Station02Ctrl">
+	
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="Station02CtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+	
+	</ModuleTarget>
+	
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="Station03Ctrl"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Station03Ctrl">
+	
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="Station03CtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+	
+	</ModuleTarget>
+	
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="Station04Ctrl"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Station04Ctrl">
+	
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="Station04CtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+	
+	</ModuleTarget>
+	
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="Station05Ctrl"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Station05Ctrl">
+	
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="Station05CtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+	
+	</ModuleTarget>
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="PlantCtrl"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^PlantCtrl">
+	
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="PlantCtrlMain">
+			<EventName>start</EventName>
+			<EventName>stop</EventName>
+			<EventName>pause</EventName>
+			<EventName>home</EventName>
+			<EventName>error</EventName>
+			<EventName>reset</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+	eventManagersQuantity="1" 
+	name="Cylinder"
+	path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Cylinder">
+	
+		<EventManagerTargetName 
+			eventsQuantity="3" 
+			name="PlantCtrlMain">
+			<EventName>extend</EventName>
+			<EventName>retract</EventName>
+			<EventName>error</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+	<ModuleTarget 
+		eventManagersQuantity="3" 
+		name="Axis"
+		path="TIPC^Jonas_Redmann^Jonas_Redmann Project^POUs^Axis">
+		
+		<EventManagerTargetName 
+			eventsQuantity="14" 
+			name="AxisMain">
+			<EventName>init</EventName>
+			<EventName>moveAbsolute</EventName>
+			<EventName>moveVelocity</EventName>
+			<EventName>home</EventName>
+			<EventName>stop</EventName>
+			<EventName>halt</EventName>
+			<EventName>reset</EventName>
+			<EventName>gearInDyn</EventName>
+			<EventName>gearOut</EventName>
+			<EventName>gearInVelo</EventName>
+			<EventName>camIn</EventName>
+			<EventName>camOut</EventName>
+			<EventName>jogForward</EventName>
+			<EventName>jogBackwards</EventName>
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="7" 
+			name="AxisSecondary">
+			<EventName>atSpecificPosition</EventName>
+			<EventName>atSpecificVelocity</EventName>
+			<EventName>atSpecificGearing</EventName>
+			<EventName>onTimeout</EventName>
+			<EventName>onPause</EventName>
+			<EventName>onPositionReached</EventName>
+			<EventName>onVelocityReached</EventName>
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="16" 
+			name="AxisError">
+			<EventName>onGeneralError</EventName>
+			<EventName>onSpecificError</EventName>
+			<EventName>initError</EventName>
+			<EventName>moveAbsoluteError</EventName>
+			<EventName>moveVelocityError</EventName>
+			<EventName>homeError</EventName>
+			<EventName>stopError</EventName>
+			<EventName>haltError</EventName>
+			<EventName>resetError</EventName>
+			<EventName>gearInDynError</EventName>
+			<EventName>gearOutError</EventName>
+			<EventName>gearInVeloError</EventName>
+			<EventName>camInError</EventName>
+			<EventName>camOutError</EventName>
+			<EventName>jogForwardError</EventName>
+			<EventName>jogBackwardsError</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+</Modules>
+
+

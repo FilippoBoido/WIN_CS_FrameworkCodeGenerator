@@ -1,0 +1,46 @@
+<SolutionInfo>
+
+	<VisualStudioVersion>
+		<!--VisualStudio.DTE.10.0-->
+		VisualStudio.DTE.12.0
+	</VisualStudioVersion>
+
+	<NameOfProject>
+		CodeGeneratorTester
+	</NameOfProject>
+	
+	<NameOfPLCProject>
+		CodeGeneratorTester
+	</NameOfPLCProject>
+	
+	<PathToSolution>
+		<!--\\VBOXSVR\Downloads\Projects\CodeGeneratorTester\CodeGeneratorTester.sln-->
+		C:\Users\fboid\Documents\Visual Studio 2013\Projects\CodeGeneratorTester\CodeGeneratorTester.sln
+	</PathToSolution>
+
+	<PathToPOUsFolder>
+		TIPC^@NameOfPLCProject@^@NameOfPLCProject@ Project^POUs
+	</PathToPOUsFolder>
+
+	<PathToDUTsFolder>
+		TIPC^@NameOfPLCProject@^@NameOfPLCProject@ Project^DUTs
+	</PathToDUTsFolder>
+
+	<PathToGVLsFolder>
+		TIPC^@NameOfPLCProject@^@NameOfPLCProject@ Project^GVLs
+	</PathToGVLsFolder>
+	
+	<PathToMAIN>
+		TIPC^@NameOfPLCProject@^@NameOfPLCProject@ Project^POUs^MAIN
+	</PathToMAIN>
+	
+	<PathToEventManagersFolder>
+		TIPC^@NameOfPLCProject@^@NameOfPLCProject@ Project^POUs^EventManagers
+	</PathToEventManagersFolder>
+
+	<Activity>
+		<!--GeneralEventsModuleCreator-->
+		SpecificEventsModuleCreator
+	</Activity>	
+	
+</SolutionInfo>

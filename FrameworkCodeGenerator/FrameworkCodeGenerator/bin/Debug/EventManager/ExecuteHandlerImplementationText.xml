@@ -1,0 +1,7 @@
+<ExecuteHandlerImplementationText>
+CASE event.currentEvent OF
+
+@handlerOperations
+
+END_CASE
+</ExecuteHandlerImplementationText>

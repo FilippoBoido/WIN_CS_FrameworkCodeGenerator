@@ -1,0 +1,8 @@
+<EventReceiverGetterImplementationText>
+@eventName@Receiver := eventTriggers.@eventName@RTrigger.Q;
+
+IF @eventName@Receiver THEN
+	event.currentEvent := @eventManagerName@Event.@eventName@Event;
+	updateEventHistory();
+END_IF
+</EventReceiverGetterImplementationText>

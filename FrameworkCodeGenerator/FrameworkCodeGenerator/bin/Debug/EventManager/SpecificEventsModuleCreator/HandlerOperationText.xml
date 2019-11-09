@@ -1,0 +1,4 @@
+<HandlerOperationText>
+@eventManagerName@Event.@eventName@Event:
+	p@moduleName@^.@eventName@Event();
+</HandlerOperationText>

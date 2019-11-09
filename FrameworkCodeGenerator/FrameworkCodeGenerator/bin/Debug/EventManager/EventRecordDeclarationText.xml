@@ -1,0 +1,9 @@
+<EventRecordDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+TYPE @eventManagerName@EventRecord :
+STRUCT
+	currentEvent	: @eventManagerName@Event;
+	pastEvent		: @eventManagerName@Event;
+END_STRUCT
+END_TYPE
+</EventRecordDeclarationText>

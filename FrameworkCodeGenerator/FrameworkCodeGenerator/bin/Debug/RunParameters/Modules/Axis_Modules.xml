@@ -1,0 +1,64 @@
+<Modules modulesQuantity="1">
+
+	<ModuleTarget 
+		eventManagersQuantity="3" 
+		name="Axis"
+		path="TIPC^CodeGeneratorTest^CodeGeneratorTest Project^POUs^FB_Axis">
+		
+		<EventManagerTargetName 
+			eventsQuantity="14" 
+			name="Main">
+			<EventName>Init</EventName>
+			<EventName>MoveAbsolute</EventName>
+			<EventName>MoveVelocity</EventName>
+			<EventName>Home</EventName>
+			<EventName>Stop</EventName>
+			<EventName>Halt</EventName>
+			<EventName>Reset</EventName>
+			<EventName>GearInDyn</EventName>
+			<EventName>GearOut</EventName>
+			<EventName>GearInVelo</EventName>
+			<EventName>CamIn</EventName>
+			<EventName>CamOut</EventName>
+			<EventName>JogForward</EventName>
+			<EventName>JogBackwards</EventName>
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="7" 
+			name="Secondary">
+			<EventName>AtSpecificPosition</EventName>
+			<EventName>AtSpecificVelocity</EventName>
+			<EventName>AtSpecificGearing</EventName>
+			<EventName>OnTimeout</EventName>
+			<EventName>OnPause</EventName>
+			<EventName>OnPositionReached</EventName>
+			<EventName>OnVelocityReached</EventName>
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="16" 
+			name="Error">
+			<EventName>OnGeneralError</EventName>
+			<EventName>OnSpecificError</EventName>
+			<EventName>InitError</EventName>
+			<EventName>MoveAbsoluteError</EventName>
+			<EventName>MoveVelocityError</EventName>
+			<EventName>HomeError</EventName>
+			<EventName>StopError</EventName>
+			<EventName>HaltError</EventName>
+			<EventName>ResetError</EventName>
+			<EventName>GearInDynError</EventName>
+			<EventName>GearOutError</EventName>
+			<EventName>GearInVeloError</EventName>
+			<EventName>CamInError</EventName>
+			<EventName>CamOutError</EventName>
+			<EventName>JogForwardError</EventName>
+			<EventName>JogBackwardsError</EventName>
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+	
+</Modules>
+
+

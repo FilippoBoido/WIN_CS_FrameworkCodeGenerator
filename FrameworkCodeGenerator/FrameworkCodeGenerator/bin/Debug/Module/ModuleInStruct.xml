@@ -1,0 +1,8 @@
+<ModuleInStruct>
+//-----------------------------------------Auto-generated code-----------------------------------------
+TYPE @moduleName@EventTriggers :
+STRUCT
+
+END_STRUCT
+END_TYPE
+</ModuleInStruct>

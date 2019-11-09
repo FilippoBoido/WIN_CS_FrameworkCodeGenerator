@@ -1,0 +1,37 @@
+<EventManagerDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+FUNCTION_BLOCK @eventManagerName@EventManager
+
+VAR_OUTPUT
+	error : BOOL;
+	eventReceiver			: @eventManagerName@EventReceiver;
+	event					: @eventManagerName@EventRecord;
+	blueprints 				: ARRAY[1..@eventManagerName@Event.size-1] OF STRING := 
+	[
+	
+@eventStrings
+	];
+END_VAR
+
+VAR_INPUT
+	eventTriggers			: @eventManagerName@EventTriggers;
+END_VAR
+
+VAR
+
+	eventManager			: STRING := '@eventManagerName@EventManager';
+	
+	p@moduleName@			: POINTER TO @moduleName@;
+	
+	disable					: BOOL;
+	
+	presentHistoryPointer 	: INT := 1;
+	i						: INT := 1;
+
+	receivedEvents			: ARRAY[1..@eventManagerName@Event.size-1] OF BOOL;
+	
+	presentEventsHistory,
+	pastEventsHistory 		: ARRAY[1..EVENT_HISTORY_DOUBLE_ARRAY_SIZE,1..2] OF STRING;
+	
+END_VAR
+</EventManagerDeclarationText>

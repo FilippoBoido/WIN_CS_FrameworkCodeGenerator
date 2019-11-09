@@ -1,0 +1,4 @@
+<DisableEventManagerSignalDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+PROPERTY PUBLIC disableEventManagerSignal : BOOL
+</DisableEventManagerSignalDeclarationText>

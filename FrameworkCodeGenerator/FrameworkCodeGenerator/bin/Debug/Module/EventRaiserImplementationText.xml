@@ -1,0 +1,3 @@
+<EventRaiserImplementationText>
+conditionsToFire.@eventName@Event 	:= fire@eventName@Event();
+</EventRaiserImplementationText>

@@ -1,0 +1,8 @@
+<EventManagerOutStruct>
+//-----------------------------------------Auto-generated code-----------------------------------------
+TYPE @eventManagerName@EventReceiver :
+STRUCT
+
+END_STRUCT
+END_TYPE
+</EventManagerOutStruct>

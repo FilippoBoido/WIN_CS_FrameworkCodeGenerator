@@ -1,0 +1,27 @@
+<TargetModuleDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+{attribute 'reflection'} 
+FUNCTION_BLOCK @moduleName@ 
+VAR_INPUT
+
+	execute 				: BOOL;
+	eventTriggers			: @moduleName@EventTriggers;
+	triggerAutoReset		: BOOL;
+	
+END_VAR
+VAR_OUTPUT
+
+@eventManagers
+	conditionsToFire		: @moduleName@ConditionsToFire;
+
+END_VAR
+VAR
+	
+	iSequence : I_Sequence;
+	{attribute 'instance-path'} 
+    {attribute 'noinit'} 
+    sPath : STRING;
+	//@VarInjector
+
+END_VAR
+</TargetModuleDeclarationText>

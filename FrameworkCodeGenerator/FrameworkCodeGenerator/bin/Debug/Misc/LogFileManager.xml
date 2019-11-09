@@ -1,0 +1,34 @@
+<Modules modulesQuantity="1">
+
+	<ModuleTarget 
+		eventManagersQuantity="2" 
+		name="LogFileManager"
+		path="TIPC^CodeGeneratorTest^CodeGeneratorTest Project^POUs^FB_LogFileManager">
+		
+		<EventManagerTargetName 
+			eventsQuantity="3" 
+			name="LogFileManagerModuleMain">
+			
+			<EventName>FileManagerStart</EventName>
+			<EventName>FileManagerStop</EventName>
+			<EventName>FileManagerError</EventName>
+
+			
+		</EventManagerTargetName>
+		
+		<EventManagerTargetName 
+			eventsQuantity="6" 
+			name="LogFileManagerModuleOperations">
+			
+			<EventName>OpenLogFile</EventName>
+			<EventName>LogFileOpened</EventName>
+			<EventName>CloseLogFile</EventName>
+			<EventName>LogFileClosed</EventName>
+			<EventName>WriteLogFile</EventName>
+			<EventName>LogFileWritten</EventName>
+		
+		</EventManagerTargetName>
+		
+	</ModuleTarget>
+
+</Modules>

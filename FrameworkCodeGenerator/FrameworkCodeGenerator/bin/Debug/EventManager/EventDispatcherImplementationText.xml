@@ -1,0 +1,5 @@
+<EventDispatcherImplementationText>
+eventReceiver.@eventName@Event := 
+	receivedEvents[@eventManagerName@Event.@eventName@Event] := 
+		@eventName@Receiver;
+</EventDispatcherImplementationText>

@@ -1,0 +1,9 @@
+<EventSenderMethodImplementationText>
+@eventManagerName@EventManager.EventTriggers.@eventNumber@RTrigger();
+fire@eventName@Event := 
+	@eventManagerName@EventManager.EventTriggers.@eventNumber@RTrigger.CLK:= EventTriggers.triggers[@eventManagerName@Event.@eventNumber@Event];  // Add your event conditions here
+	
+IF triggerAutoReset THEN
+	eventTriggers.triggers[@eventManagerName@Event.@eventNumber@Event] := False;
+END_IF
+</EventSenderMethodImplementationText>

@@ -1,0 +1,4 @@
+<EventReceiverDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+PROPERTY PUBLIC @eventName@Receiver : BOOL
+</EventReceiverDeclarationText>

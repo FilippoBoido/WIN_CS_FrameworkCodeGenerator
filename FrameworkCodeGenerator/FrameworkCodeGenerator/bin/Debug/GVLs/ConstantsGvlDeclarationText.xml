@@ -1,0 +1,9 @@
+<ConstantsGvlDeclarationText>
+//-----------------------------------------Auto-generated code-----------------------------------------
+VAR_GLOBAL CONSTANT
+
+	EVENT_HISTORY_DOUBLE_ARRAY_SIZE	: UINT := 20;
+	NULL_STRING_DOUBLE_ARRAY : ARRAY[1..EVENT_HISTORY_DOUBLE_ARRAY_SIZE,1..2] OF STRING;
+	 
+END_VAR
+</ConstantsGvlDeclarationText>
